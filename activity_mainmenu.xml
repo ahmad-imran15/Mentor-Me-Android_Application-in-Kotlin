@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".mainmenu"
+    tools:layout_editor_absoluteX="144dp"
+
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="72dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="backloginscreen"
+
+        android:text=" Back "
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:ignore="ExtraText,MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="729dp"
+        android:layout_marginTop="70dp"
+        android:layout_weight="1.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+
+            android:padding="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello, "
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ali"
+                    android:textColor="#279187"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ready for mentorship? Let's begin the journey!"
+                    android:textColor="#279187"
+                    android:textSize="16.3sp" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/greenbackgrundwhitebutton"
+                        android:clickable="true"
+                        android:padding="6sp"
+                        android:text="All"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/edu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:background="@drawable/verylightgreenbackgroundbutton"
+                        android:clickable="true"
+                        android:padding="6sp"
+                        android:text="Eduction"
+                        android:textColor="#088579"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:background="@drawable/verylightgreenbackgroundbutton"
+                        android:clickable="true"
+                        android:padding="6sp"
+                        android:text="Enterpreneurship"
+                        android:textColor="#088579"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:background="@drawable/verylightgreenbackgroundbutton"
+                        android:clickable="true"
+                        android:padding="6sp"
+                        android:text="Personal Growth"
+                        android:textColor="#088579"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/recent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14sp"
+                        android:background="@drawable/verylightgreenbackgroundbutton"
+                        android:clickable="true"
+                        android:padding="6sp"
+                        android:text="Recent"
+                        android:textColor="#088579"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top Mentor For you"
+                    android:textColor="#279187"
+
+                    android:textSize="16.3sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="View All"
+                    android:textColor="#279187"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="174dp"
+                        android:layout_height="170dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ahmadpic"
+                        android:clickable="true"
+                        android:gravity="bottom"
+                        android:onClick="mentor1"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:src="@drawable/ahmadpic">
+
+                        <LinearLayout
+                            android:layout_width="185dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ahmad Imran"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ux designer@Google"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Available"
+                                    android:textColor="#4EDF54"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.5"
+                                android:background="@color/white"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/john_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp"
+
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic4"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:clickable="true"
+                        android:onClick="mentor2"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Umer farooq"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lead-Tech Officer"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Not Available"
+                                    android:textColor="#A8AEA9"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.6"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/martina_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic2"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:clickable="true"
+                        android:onClick="mentor3"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Zarrar khan"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lead-Corporate"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Not Available"
+                                    android:textColor="#A8AEA9"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.6"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/emma_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Education Mentor"
+                    android:textColor="#279187"
+
+                    android:textSize="16.3sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="View All"
+                    android:textColor="#279187"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic2"
+                        android:gravity="bottom"
+                        android:clickable="true"
+                        android:onClick="mentor3"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Zarrar Khan"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="NJP Expert"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Available"
+                                    android:textColor="#4EDF54"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.5"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/micheal_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic1new"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:clickable="true"
+                        android:onClick="mentor5"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Alex"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Android Devloper"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Not Available"
+                                    android:textColor="#A8AEA9"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.6"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/alex_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic3"
+                        android:gravity="bottom"
+                        android:clickable="true"
+                        android:onClick="mentor6"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Jane"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Software Engineer"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Not Available"
+                                    android:textColor="#A8AEA9"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.6"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/jane_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recent Mentor"
+                    android:textColor="#279187"
+
+                    android:textSize="16.3sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="View All"
+                    android:textColor="#279187"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic2"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Micheal Drake"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="NJP Expert"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Available"
+                                    android:textColor="#4EDF54"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.5"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/micheal1_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic2new"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Alex"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Android Devloper"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Not Available"
+                                    android:textColor="#A8AEA9"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.6"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/alex1_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/pic_4jpg"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp">
+
+                        <LinearLayout
+                            android:layout_width="175dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/hello"
+
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="2"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:background="@drawable/hello"
+
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Jane"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Software Engineer"
+                                    android:textSize="11dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Not Available"
+                                    android:textColor="#A8AEA9"
+                                    android:textSize="10dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="114dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1.6"
+                                android:background="@drawable/hello"
+                                android:gravity="top"
+                                android:orientation="vertical"
+
+
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$1500/session"
+                                    android:textColor="#EAD736"
+                                    android:textSize="11dp" />
+
+                                <ImageView
+                                    android:id="@+id/jane1_h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="428dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="808dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="808dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuhome"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="808dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuchat"
+        android:clickable="true"
+        android:onClick="chatscreen"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="808dp"
+
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menusearch"
+        android:clickable="true"
+        android:onClick="search"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="808dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuprofile"
+        android:clickable="true"
+        android:onClick="profile"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="55dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/addnew"
+
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="add"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+</RelativeLayout>

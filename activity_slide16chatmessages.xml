@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:layout_editor_absoluteX="-21dp"
+    tools:layout_editor_absoluteY="-13dp">
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="378dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="645dp"
+        android:background="@drawable/typesomething"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+
+
+        android:textColor="#101010"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="728dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="chat"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:clickable="true"
+        android:onClick="home_slide16chatmessages"
+        android:layout_marginTop="816dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/chathome"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="810dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/chatchat"
+        android:clickable="true"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="chats_slide16chatmessages"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="257dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="52dp"
+
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="815dp"
+        android:background="@drawable/menusearch"
+
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="search_slide16chatmessages"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="808dp"
+
+
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuprofile"
+
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="profilescreen_slide16chatmessages"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="331dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="64dp"
+        android:layout_height="66dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="780dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:onClick="add_slide16chatmessages"
+        android:background="@drawable/chatadd"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="410dp"
+        android:layout_height="288dp"
+        android:background="@drawable/bottomcornersround"
+
+
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#157177"
+        android:textSize="37dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="129dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/callpic"
+
+        android:fontFamily="sans-serif-medium"
+
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="589dp"
+        android:background="@drawable/pic5"
+        android:fontFamily="sans-serif-medium"
+
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="68dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="429dp"
+
+        android:background="@drawable/whitecircle"
+        android:backgroundTint="#CDDC39"
+        android:fontFamily="sans-serif-medium"
+
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="67dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="509dp"
+
+        android:background="@drawable/whitecircle"
+        android:backgroundTint="#2196F3"
+        android:fontFamily="sans-serif-medium"
+
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="83dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+android:background="@drawable/greenbackgrundwhitebutton"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Back"
+android:clickable="true"
+        android:onClick="chats_slide16chatmessages"
+        android:textColor="#F9FBFB"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="275dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="82dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="John Cooper's"
+
+        android:textColor="#F9FBFB"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="159dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="135dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Community"
+
+        android:textColor="#F9FBFB"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="10:30"
+
+        android:textColor="#BEC1C1"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="634dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="10:34"
+
+        android:textColor="#BEC1C1"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="74dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="463dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="10:32"
+
+        android:textColor="#BEC1C1"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="74dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="545dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="10:34"
+
+        android:textColor="#BEC1C1"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="333dp"
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="How was your experience with his
+mentorship? Satisfied??"
+
+        android:textColor="#F9FBFB"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/chatcall"
+        android:clickable="true"
+        android:onClick="make_call_slide16chatmessages"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/chatvideocall"
+        android:clickable="true"
+        android:onClick="make_videocall_slide16chatmessages"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="429dp"
+        android:background="@drawable/backgorundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Worth it!!"
+
+        android:textColor="#101010"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="135dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="517dp"
+        android:background="@drawable/backgorundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Impressive"
+
+        android:textColor="#101010"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView425"
+        android:layout_width="269dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/backgorundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="You’re missing out! Go take it!!!"
+
+        android:textColor="#101010"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

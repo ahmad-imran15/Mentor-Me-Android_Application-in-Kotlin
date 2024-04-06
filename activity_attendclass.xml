@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:layout_editor_absoluteX="-21dp"
+    tools:layout_editor_absoluteY="-13dp">
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="609dp"
+
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/whitecircle"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:srcCompat="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-15dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="52dp"
+        android:layout_marginTop="740dp"
+        android:layout_marginStart="170dp"
+        android:layout_height="52dp"
+        android:background="@drawable/baseline_cancel_24"
+        android:fontFamily="sans-serif-medium"
+
+android:clickable="true"
+        android:onClick="cancel"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="184dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginStart="113dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="113dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="471dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+android:layout_marginTop="104dp"
+        android:layout_marginStart="145dp"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="260dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="60dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Muhammad Ahmad"
+        android:textColor="@color/black"
+
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="69dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="674dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/mute"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="71dp"
+        android:layout_height="61dp"
+        android:background="@drawable/sound"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_marginTop="674dp"
+        android:layout_marginStart="150dp"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/joinbuttonn"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/pause"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_marginTop="674dp"
+        android:layout_marginStart="279dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="________"
+        android:textColor="#9D9E9E"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

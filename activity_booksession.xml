@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        app:srcCompat="@drawable/bottomcornersround"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+    <TextView
+        tools:ignore="MissingConstraints"
+        android:id="@+id/textView1"
+        android:layout_width="438dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="138dp"
+        android:fontFamily="sans-serif-light"
+        android:text="_______________________"
+
+        android:textColor="#C3BCBC"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="$1500/Session"
+        tools:ignore="MissingConstraints"
+        android:textColor="#F0C718"
+        android:textSize="20dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:onClick="onStarClicked"
+        android:src="@drawable/star"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="24dp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="108dp"
+        android:layout_height="102dp"
+
+        android:background="@mipmap/ic_launcher_round"
+        tools:ignore="MissingConstraints"
+android:layout_marginStart="284dp"
+        android:layout_marginTop="34dp"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="118dp"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="242dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Book your Session"
+        android:textColor="#026158"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="38dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="69dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+
+        android:onClick="backbookappointment"
+        android:text=" Back"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="38dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        tools:ignore="MissingConstraints"
+        android:text="4.8"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="145dp"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="190dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="John Cooper"
+        android:layout_marginTop="83dp"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="118dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="246dp"
+        android:layout_height="37dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Available Time Slots"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="566dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="642dp"
+
+        />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_marginTop="256dp"
+        android:layout_width="343dp"
+        android:layout_height="298dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="49dp"
+        android:layout_marginStart="35dp"
+        tools:layout_editor_absoluteY="326dp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="110dp"
+        android:layout_height="38dp"
+        android:background="@drawable/hello"
+        android:fontFamily="sans-serif-medium"
+
+        android:text="12:00 PM"
+        android:clickable="true"
+        android:layout_marginTop="617dp"
+        android:layout_marginStart="283dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="690dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="366dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Book an Appointment"
+        android:clickable="true"
+        android:onClick="book_appointment"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="771dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:background="@drawable/hello"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="10:00 AM"
+        android:clickable="true"
+        android:layout_marginTop="617dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:textSize="21dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="689dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="114dp"
+        android:layout_height="37dp"
+        android:background="@drawable/hello"
+
+        android:fontFamily="sans-serif-medium"
+        android:text="11:00 AM"
+        android:clickable="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="617dp"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="690dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <!-- time_slot_item.xml -->
+
+
+</RelativeLayout>

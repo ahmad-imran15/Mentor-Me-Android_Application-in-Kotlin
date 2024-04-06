@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:background="@drawable/background1"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:background="@drawable/bottomcornersround"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-9dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hi, I'm John Cooper"
+
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="438dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="sans-serif-light"
+        android:text="_______________________"
+        android:textColor="#C3BCBC"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="210dp"
+        android:layout_height="103dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="UX Designer at Google"
+        android:layout_marginTop="146dp"
+        android:layout_marginStart="15dp"
+
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="131dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="99dp"
+        android:layout_height="53dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="right"
+
+        android:text="4.8"
+        android:layout_marginTop="146dp"
+        android:layout_marginStart="274dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="438dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="sans-serif-light"
+        android:text="_______________________"
+
+        android:textColor="#C3BCBC"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="177dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="About me"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="250dp"
+
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="234dp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/backbuttonnew"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="bakeaboutme"
+
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="234dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="276dp"
+        android:fontFamily="sans-serif-light"
+        android:text="I am a passionate UX designer at Google with a focus on
+creating user-centric and intuitive interfaces. With 10 years of
+experience, I have had the opportunity to work on diverse
+projects that have shaped my understanding of design
+principles and user experience"
+
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="297dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="446dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="My Expertise Include"
+        android:textColor="#157177"
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="144dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text=" Career Advice"
+        android:layout_marginStart="12dp"
+
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="568dp"
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Leadership"
+
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="153dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="568dp"
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Prototyping"
+
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="User Experience Design"
+
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <TextView
+
+        android:id="@+id/textView12"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:background="@drawable/yellowbackgroundgreenbutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Join Community"
+        android:layout_marginTop="650dp"
+        android:clickable="true"
+        android:onClick="join_community"
+        android:layout_marginStart="228dp"
+
+        android:textColor="#157177"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="219dp"
+
+        tools:layout_editor_absoluteY="744dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="796dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+android:clickable="true"
+        android:onClick="booksession"
+        android:gravity="center"
+        android:text="Book a Session"
+        android:textColor="@color/white"
+
+        android:textSize="19sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="810dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:background="@drawable/yellowbackgroundgreenbutton"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Drop a review"
+        android:clickable="true"
+        android:onClick="drop_review"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="23dp"
+
+        android:textColor="#157177"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="4dp"
+
+        tools:layout_editor_absoluteY="744dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="108dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="273dp"
+        android:layout_height="102dp"
+        android:background="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="24dp"
+        tools:srcCompat="@mipmap/ic_launcher_round"
+        tools:ignore="MissingConstraints"/>
+
+</RelativeLayout>

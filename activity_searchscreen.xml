@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:layout_editor_absoluteX="-21dp"
+    tools:layout_editor_absoluteY="-13dp">
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="699dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="homesearch_searchscreen"
+        android:text="   Back"
+
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="362dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="68dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:text=" Search Results"
+
+        android:textColor="#157177"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="281dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginBottom="486dp"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="110dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="644dp"
+        android:background="#D9D9D9"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    activity_main.xml
+
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="110dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="305dp"
+        android:background="#CBCBCB"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="110dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="533dp"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:background="#D9D9D9"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="110dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="418dp"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:background="#D9D9D9"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="281dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginBottom="147dp"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="281dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="549dp"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:layout_marginBottom="254dp"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="281dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginBottom="366dp"
+        android:paddingLeft="@dimen/cardview_default_radius"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="317dp"
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:layout_marginEnd="90dp"
+
+
+        android:layout_marginBottom="482dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Sample 1
+Lead - Technology Officer"
+
+        android:textColor="#0A0B0B"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="161dp"
+
+        android:layout_height="67dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginEnd="82dp"
+
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:layout_marginBottom="143dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Sample 4
+Lead - Technology Officer"
+
+        android:textColor="#0A0B0B"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="82dp"
+
+        android:clickable="true"
+        android:onClick="searchscreen"
+        android:layout_marginBottom="250dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Sample 3
+Lead - Technology Officer"
+
+        android:textColor="#0A0B0B"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="82dp"
+        android:clickable="true"
+        android:onClick="searchscreen"
+
+
+        android:layout_marginBottom="365dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Sample 2
+Lead - Technology Officer"
+
+        android:textColor="#0A0B0B"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="353dp"
+        android:layout_marginTop="686dp"
+
+
+        android:background="@drawable/liked"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="353dp"
+        android:layout_marginTop="575dp"
+
+
+        android:background="@drawable/liked"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="353dp"
+        android:layout_marginTop="464dp"
+
+
+        android:background="@drawable/liked"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="353dp"
+        android:layout_marginTop="343dp"
+
+
+        android:background="@drawable/liked"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="145dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="591dp"
+
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+
+        android:text="Filter  v"
+        android:textColor="#F9FBFB"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="-3dp"
+
+        android:background="@drawable/greenbackgrundwhitebutton"
+
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="808dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/chathome"
+android:clickable="true"
+        android:onClick="homesearch_searchscreen"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuchat"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:onClick="chatsearch"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="808dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/searchsearch"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="808dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuprofile"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:onClick="profilesearch"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="64dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="220dp"
+
+        android:layout_marginBottom="29dp"
+
+        android:background="@drawable/chatadd"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="addsearch"
+        android:textColor="@color/black"
+
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+
+
+</RelativeLayout>

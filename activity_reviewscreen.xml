@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/star7"
+        android:text="-"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="542dp"
+        android:background="@drawable/star"
+        android:clickable="true"
+
+        />
+
+    <TextView
+        android:id="@+id/star2"
+        android:layout_width="51dp"
+        android:background="@drawable/star"
+        android:layout_height="57dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="542dp"
+        android:clickable="true"
+        android:text="." />
+
+    <TextView
+        android:id="@+id/star3"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="542dp"
+        android:clickable="true"
+        android:background="@drawable/star"
+
+        android:text="."/>
+
+    <TextView
+        android:id="@+id/star4"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="542dp"
+
+        android:background="@drawable/star"
+        android:clickable="true"
+
+        android:text="."/>
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_marginBottom="512dp"
+        android:background="@drawable/bottomcornersround"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="5dp"
+
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hi, I'm      Muhammad Ahmad"
+
+        android:textColor="@color/white"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="438dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="_______________________"
+        android:textColor="#C3BCBC"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="553dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Drop me a review"
+
+        android:textColor="@color/white"
+        android:textSize="26dp"/>
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="108dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="26dp"
+        android:background="@mipmap/ic_launcher_round"
+        />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="338dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="277dp"
+        android:background="@drawable/hello"
+        android:gravity="top"
+        android:paddingLeft="20dp"
+android:textColor="@color/black"
+        android:hint="  Type your experience ...." />
+
+
+    <TextView
+        android:id="@+id/star"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="542dp"
+        android:background="@drawable/star"
+        android:clickable="true"
+
+        android:text="."/>
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="699dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="backreview"
+        android:text=" Back  "
+
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="322dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="732dp"
+android:clickable="true"
+        android:onClick="submit_feedback"
+
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:text="Submit Feedback"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+</RelativeLayout>

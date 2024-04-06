@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1.5"
+        >
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/greenbackgrundwhitebutton"
+            android:gravity="center"
+            android:text="Back"
+            android:clickable="true"
+            android:onClick="backtomainmenu"
+            android:textColor="@color/white"
+
+            android:textSize="30dp"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+
+        android:layout_marginBottom="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="backtomainmenu"
+        android:text="Add New Mentor"
+
+        android:textColor="#157177"
+        android:textSize="35dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text=" Help us expand!"
+        android:textColor="#157177"
+
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@drawable/upper_corner_round"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/btnUploadPicture"
+            android:layout_width="149dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/uploadphoto"
+            android:clickable="true"
+            android:contentDescription="Upload Picture"
+            android:onClick="make_photo" />
+
+        <ImageView
+            android:id="@+id/btnUploadVideo"
+            android:layout_width="149dp"
+            android:layout_height="89dp"
+            android:layout_gravity="center
+
+"
+
+            android:layout_marginTop="20dp"
+
+
+            android:contentDescription="Upload Video" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/addnewmentor_email"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hello"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:hint="   Enter email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="165dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center"
+            android:text="Description"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/addnewmentor_description"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hello"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:hint="   Enter Description"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="165dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/addnewmentor_status"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/hello"
+
+            android:ems="10"
+            android:hint="   Available"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="383dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/greenbackgrundwhitebutton"
+
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Upload"
+            android:onClick="upload"
+
+
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

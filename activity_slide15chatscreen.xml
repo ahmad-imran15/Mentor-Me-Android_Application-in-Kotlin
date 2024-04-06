@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="-21dp"
+    android:background="@drawable/background1"
+    tools:layout_editor_absoluteY="-13dp">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:text=" hello    "
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/greenbackgrundwhitebutton"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="chats_slide15chatscreen"
+        android:textColor="#157177"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="home_slide15chatscreen"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+
+        android:layout_marginTop="816dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/chathome"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="810dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/chatchat"
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="add"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="257dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="52dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+
+
+        android:layout_marginTop="815dp"
+        android:background="@drawable/menusearch"
+
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="search_slide15chatscreen"
+
+
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="808dp"
+
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/menuprofile"
+
+        android:clickable="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="profilescreen_slide15chatscreen"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="331dp" />
+
+    <ImageView
+        android:id="@+id/textView57"
+        android:layout_width="64dp"
+        android:layout_height="66dp"
+        android:clickable="true"
+
+        android:onClick="add_slide15chatscreen"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="780dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/chatadd"
+        android:fontFamily="sans-serif-medium"
+
+        android:gravity="center"
+
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:background="@drawable/bottomcornersround"
+        android:fontFamily="sans-serif-medium"
+
+
+        android:textColor="#157177"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="67dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="14dp"
+
+
+        android:clickable="true"
+        android:onClick="make_call_slide15chatscreen"
+        android:background="@drawable/chatcall"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="67dp"
+        android:layout_height="54dp"
+
+
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/chatvideocall"
+        android:clickable="true"
+        android:onClick="make_videocall_slide15chatscreen"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="229dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:clickable="true"
+        android:onClick="chats_slide15chatscreen"
+        android:fontFamily="sans-serif-medium"
+        android:text="  John Cooper"
+
+        android:textColor="#F9FBFB"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="55dp"
+    android:layout_marginTop="643dp"
+    android:background="@drawable/lightgreenbackgroundwhiteupper"
+    ></ImageView>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginStart="300dp"
+        android:background="@drawable/lightgreenbackgroundwhiteupper"
+        ></ImageView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/yourMessage"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="643dp"
+        android:background="#50C0C7"
+        android:gravity="top"
+        android:hint="  Type Something......." />
+
+    <ImageView
+        android:id="@+id/clip"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/clip" />
+
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_width="32dp"
+        android:layout_height="26dp"
+        android:clickable="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/gallery" />
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/camera" />
+
+    <ImageView
+
+        android:id="@+id/microphone"
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="320dp"
+        android:onClick="toggleVoiceRecording"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/microphone" />
+
+    <ImageView
+
+        android:id="@+id/send"
+        android:layout_width="39dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/send" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignBottom="@+id/yourMessage"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="131dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView2"
+            android:layout_width="396dp"
+            android:layout_height="484dp"
+
+            android:layout_below="@+id/textView1"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+            tools:listitem="@layout/layout_reciever_message" />
+
+        >
+    </LinearLayout>
+</RelativeLayout>

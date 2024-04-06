@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:weightSum="2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/uppergreen"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/greenbackgrundwhitebutton"
+            android:clickable="true"
+
+            android:gravity="center"
+            android:onClick="back_editprofilescreen"
+            android:text="  Back   "
+
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="left"
+
+            android:text="Edit Profile"
+
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+
+        <ImageView
+            android:id="@+id/btnUploadVideo"
+            android:layout_width="84dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="263dp"
+
+            android:layout_marginTop="20dp"
+
+
+            android:contentDescription="Upload Video" />
+
+        <TextView
+            android:id="@+id/btnUploadPicture"
+            android:layout_width="52dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="363dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/ic_menu_edit"
+            android:clickable="true"
+            android:contentDescription="Upload Picture"
+            android:onClick="make_photo" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="48dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="127dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/yellowbackgroundgreenbutton"
+            android:clickable="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+
+            android:onClick="bookedsessions"
+
+            android:text="Booked Sessions"
+
+            android:textColor="#009688"
+            android:textSize="22dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#157177"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editprofile_name"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:background="@drawable/hello"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="   Ali"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@id/textView15"
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="#157177"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editprofile_email"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hello"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:minHeight="48dp"
+
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:hint="   ali@gmai.com"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="206dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="Contact number"
+            android:textColor="#157177"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editprofile_phonenumber"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hello"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:hint="   +92 321 2242022"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="165dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+
+            android:gravity="left"
+            android:text="Country"
+            android:textColor="#157177"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editprofile_country"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hello"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:hint="   Pakistan"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:text="City"
+            android:textColor="#157177"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editprofile_city"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hello"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:layout_gravity="center"
+
+            android:padding="10dp"
+            android:hint="   Islamabad"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="225dp"
+            android:layout_height="58dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/greenbackgrundwhitebutton"
+            android:clickable="true"
+
+            android:gravity="center"
+            android:minHeight="118dp"
+            android:onClick="updateprofile_editprofilescreen"
+            android:text="Update Profile"
+
+
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
