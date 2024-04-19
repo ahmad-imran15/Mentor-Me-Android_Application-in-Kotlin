@@ -1,4 +1,4 @@
-Android Develoipment
+Android Apllication Development in Kotlin Using Android Studio
 
 This is basically a whole android app than include Login/ Signup, Chats feature, Call and Video call, Add Mentor, Edit Profile, booking and writing review for mentor and many other fearures.
 
